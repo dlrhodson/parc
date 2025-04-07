@@ -1,6 +1,35 @@
 <!DOCTYPE html>
 <html>
+<head>
+<style>
+  body {
+    font-family: sans-serif;
+    padding: 1em;
+  }
+  #nav {
+    margin-bottom: 2em;
+  }
+  #plots {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5em;
+  }
+  .plot {
+    text-align: center;
+  }
+  .caption {
+    margin-top: 0.5em;
+    font-size: 0.95em;
+    color: #333;
+  }
+</style>
+</head>
 <body>
 <div id="nav">
+<div><em>.</em>
 <div><a href="ACSIS/index.html">ACSIS</a></div></div>
-</body></html>
+</div>
+<div id="plots">
+</div>
+</body>
+</html>

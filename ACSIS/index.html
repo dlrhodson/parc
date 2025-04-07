@@ -1,8 +1,37 @@
 <!DOCTYPE html>
 <html>
+<head>
+<style>
+  body {
+    font-family: sans-serif;
+    padding: 1em;
+  }
+  #nav {
+    margin-bottom: 2em;
+  }
+  #plots {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5em;
+  }
+  .plot {
+    text-align: center;
+  }
+  .caption {
+    margin-top: 0.5em;
+    font-size: 0.95em;
+    color: #333;
+  }
+</style>
+</head>
 <body>
-<div><a href="../index.html">⬅ Back</a></div>
-
 <div id="nav">
-<div><a href="SMURPHS/index.html">SMURPHS</a></div></div>
-</body></html>
+<div><em>ACSIS</em>
+<div><a href="SMURPHS/index.html">SMURPHS</a></div>
+<div><a href="../index.html">⬅ Back</a></div>
+</div>
+</div>
+<div id="plots">
+</div>
+</body>
+</html>
